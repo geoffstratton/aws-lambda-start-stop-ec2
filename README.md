@@ -8,7 +8,7 @@ These are AWS Lambda functions for starting and stopping EC2 instances automatic
 
 Prerequisites
 ---------------
-* The (boto3 SDK)[https://aws.amazon.com/sdk-for-python/].
+* The [boto3 SDK](https://aws.amazon.com/sdk-for-python/).
 * Ensure that the IAM Role attached to the Lambda function has a policy with ec2. If you want to create a custom policy, include:
     + ec2:DescribeInstances
     + ec2:StartInstances
