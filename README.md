@@ -18,7 +18,7 @@ Prerequisites
 * Also create a cron job in CloudWatch to invoke the Lambda function at the desired times.
 
 ### To set up boto3 for development (Amazon Linux and similar):
------------------------------------------------------------------
+
 ```
 sudo yum install -y python3 python3-pip python3-setuptools
 pip3 install boto3 --user
