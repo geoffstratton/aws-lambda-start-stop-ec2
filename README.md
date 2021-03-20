@@ -14,7 +14,7 @@ Prerequisites
     + ec2:StartInstances
     + ec2:DescribeRegions
     + ec2:StopInstances
-* If using CloudWatch, your Lambda function also needs the usual CloudWatch Logs role.
+* Use the usual CloudWatch Logs role for logging.
 * Also create a cron job in CloudWatch to invoke the Lambda function at the desired times.
 
 ### To set up boto3 for development (Amazon Linux and similar):
