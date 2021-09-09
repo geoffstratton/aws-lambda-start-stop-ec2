@@ -31,3 +31,7 @@ python3
 ```
 
 You can also run the included create_ec2.py function to create new EC2 instances.
+
+License
+---------------
+GNU General Public License v3.0
